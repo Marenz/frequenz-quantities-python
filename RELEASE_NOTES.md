@@ -9,3 +9,6 @@ This is the initial release, extracted from the [SDK v1.0.0rc601](https://github
 - Added support for `__round__` (`round(quantity)`), `__pos__` (`+quantity`) and `__mod__` (`quantity % quantity`) operators.
 - Add `ReactivePower` quantity.
 - Add `ApparentPower` quantity.
+- Add marshmallow module available when adding `[marshmallow]` to the requirements.
+ - schema for `Percentage`, `Energy` and `Power` quantities.
+ - Add marshmallow helper function `within_bounds` for fields of type `Percentage`.
